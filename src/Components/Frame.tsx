@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { postPush  } from '../Graph/GraphService';
 
 function Frame (props:any) {
-     
+ /*    
     const [registros, setRegistros] = useState<Object[]>([]);
     const [selectedRegistros, setSelectedRegistros] = useState([]);
     const [push, setPush] = useState<boolean>(true);
@@ -18,7 +18,7 @@ function Frame (props:any) {
         setRegistros([])
         //await loguear();
     }
-/*
+
     const loguear = async () => {
         const loginSrv = new LoginServices();        
         const tokenChango = await loginSrv.login();
@@ -27,7 +27,7 @@ function Frame (props:any) {
         debugger;       
     }    
 */
-    const loadTable = async (tokenChango: string) => {    
+/*    const loadTable = async (tokenChango: string) => {    
         setRegistros([]) 
         setSelectedRegistros([]);
         debugger      
@@ -37,7 +37,7 @@ function Frame (props:any) {
         //const alarms = await regServices.postProblems(problemas, tokenChango!)  
         debugger
         //setRegistros(alarms);
-    }
+    }*/
 /*
     function onRegistroChange(state:any) {
         setSelectedRegistros(state.selectedRows);            
