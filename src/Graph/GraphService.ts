@@ -1,6 +1,4 @@
-import moment, { Moment } from 'moment';
-import { Event } from 'microsoft-graph';
-import { GraphRequestOptions, PageCollection, PageIterator } from '@microsoft/microsoft-graph-client';
+
 var graph = require('@microsoft/microsoft-graph-client');
 
 function getAuthenticatedClient(accessToken: string) {
@@ -43,11 +41,12 @@ export async function postPush(accessToken: string, selectedRows: any) {
 
     result.push(fila);
   }
+  /*
   const objeto = {"values": result };  
   const saveToGraph = await client
   //.api('/me/drive/items/5D9243B3565EB6D5!2373/workbook/tables/1/rows/add')
   .api('me/drives/5d9243b3565eb6d5/items/5D9243B3565EB6D5!2373/workbook/tables/1/rows/add')
-  .post(objeto);
+  .post(objeto);*/
 }
 /*
 export async function getUserWeekCalendar(accessToken: string, timeZone: string, startDate: Moment): Promise<Event[]> {
