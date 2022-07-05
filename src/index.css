@@ -7,9 +7,15 @@ body {
   margin-left: 0;
   margin-right: 0;
   min-width: 100%;
+  
 }
 .alert-pre {
   word-wrap: break-word;
   word-break: break-all;
   white-space: pre-wrap;
+}
+.test {
+  width: 100;
+  display: flex;
+  
 }

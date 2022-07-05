@@ -4,6 +4,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { config } from '../Graph/Config';
 //import { postPush  } from '../Graph/GraphService';
+import Referencias from './Ref.png'
+
+import '../index.css';
 
 function Frame (props:any) {
     return (
@@ -11,7 +14,11 @@ function Frame (props:any) {
             
             <iframe src="https://prezi.com/p/embed/8ssi4mrhldsj/" id="iframe_container" title="try1" frameBorder="0" allow="autoplay; fullscreen" height="567" width="1008"></iframe>
         
-            <p>Referencias</p>
+            <div className='test'>
+                <p></p>
+                <img src={Referencias} alt="Italian Trully"/>
+            </div>
+            
         </div>
     );
 }
