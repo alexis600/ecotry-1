@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { config } from '../Graph/Config';
 //import { postPush  } from '../Graph/GraphService';
 import Referencias from './Ref.png'
-
+import './Frame.css'
 import '../index.css';
 
 function Frame (props:any) {
@@ -16,7 +16,7 @@ function Frame (props:any) {
         
             <div className='test'>
                 <p></p>
-                <img src={Referencias} alt="Italian Trully"/>
+                <img src={Referencias} className="referencia" alt="Italian Trully"/>
             </div>
             
         </div>

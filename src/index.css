@@ -14,8 +14,14 @@ body {
   word-break: break-all;
   white-space: pre-wrap;
 }
-.test {
-  width: 100;
+.App-body {
   display: flex;
+}
+.test {
   
+  max-height: 50px;
+  padding-top: 20%;
+}
+.referencia{
+  max-width: 200px;
 }
